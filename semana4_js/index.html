@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css">
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <h1>Pokedex LaunchX</h1>
+    <main class="flex-contenedor">
+        
+        <div>
+            <input
+              type="text"
+              placeholder="Nombre o ID"
+              id="pokeName"
+              name="pokeName"
+            /><br /><br />
+            <img
+              src="./recursos/quien.jpeg"
+              width="250px"
+              height="250px"
+              id="pokeImg"
+            /><br /><br />
+            <button onclick="fetchpokemon()">Cambiar pokemón</button>
+          </div>
+          <div>
+            <p id="nombre"></p>
+            <p id="tipo"></p>
+            <p id="est0"></p>
+            <p id="est1"></p>
+            <p id="est2"></p>
+            <p id="est3"></p>
+            <p id="est4"></p>
+            <p id="est5"></p>
+            <p id="move"></p>
+          </div>
+    </main>
+  </body>
+  <footer>
+    <script src="./app.js"></script>
+  </footer>
+</html>
